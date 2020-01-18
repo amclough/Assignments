@@ -1,0 +1,1 @@
+Based on summary.txt, it looks like what this program did was go through each column heading, see if it matched "personnel compensation, and discard if it was false
