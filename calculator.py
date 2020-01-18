@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #multiply a and b
 def multiply(a,b):
     return a * b
@@ -18,6 +19,7 @@ print("I'm going use the calculator functions to multiply 5 and 6")
 x = multiply(5,6)
 print(x)
 
+
 #bonus
 #square a
 def square(a):
@@ -29,4 +31,5 @@ def cube (a):
 
 #square_n_times
 def square_n_times(a, n):
-    return n(a * a)
+    return square(a) ** n
+
