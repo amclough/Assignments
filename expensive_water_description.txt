@@ -1,0 +1,1 @@
+We used this program to take the quarter 1 expenditure file and narrow it down to a few records fitting the parameters set by filter.py. This kept only the records where the amount associated with the row "water" was >1000 and wrote only those rows into our expensive_water.csv file. USE TERMINOLOGY

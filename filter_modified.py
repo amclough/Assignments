@@ -15,6 +15,6 @@ writer.writeheader()
 # loop through the rows in the original csv
 for row in reader:
 	# filter rows
-    if row['CATEGORY'] == 'PERSONNEL' and float(row['YEAR']) == 2017:
+    if row['CATEGORY'] == 'PERSONNEL COMPENSATION' and float(row['YEAR']) == 2017:
     	# write rows that match above filter
         writer.writerow(row)
